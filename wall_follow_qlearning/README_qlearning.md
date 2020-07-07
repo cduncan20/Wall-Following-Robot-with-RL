@@ -80,4 +80,4 @@ To follow a wall, I used the stanley control method, which basically tried to dr
 6. Publish linear velocity, which is constantly set to be 0.3 units per second in the x-direction and 0.0 units per second in the y-direction, and the angular velocity (defined by action above) to the robot.
 7. Repeat steps 1-6 above until maximum time limit has been reached.
 
-See the C++ code to see how this was done. 
+See the *Final Report.pdf* file within the main repository folder for a more detailed description on the solution. Also, see the C++ code within the *src* folder to see how this was implemented. 

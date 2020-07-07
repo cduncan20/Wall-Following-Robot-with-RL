@@ -17,4 +17,4 @@ The goal of this assignment was to write a ROS node that allows the robot to fol
     - ROS Package Folder Name: *wall_follow_sarsa* <br />
     - Demo Video Link: https://youtu.be/RI4NhKOeDt8
 
-Within each ROS package folder is a README file. Follow the steps within these README files for compiling and running the code yourself.
+Within each ROS package folder is a README file. Follow the steps within these README files for compiling and running the code yourself. See the *Final Report.pdf* file for a detailed description on the solution for this project.
