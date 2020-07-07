@@ -11,7 +11,7 @@ The goal of this assignment was to write a ROS node that allows the robot to fol
 
 
 1. Q-Learning Algorithm <br />
-    - ROS Package Folder Name: wall_follow_qlearning
+    - ROS Package Folder Name: *wall_follow_qlearning* <br />
     - Demo Video Link: https://youtu.be/DFaiHgMJvXc
 2. SARSA Algorithm <br />
     - ROS Package Folder Name: *wall_follow_sarsa* <br />

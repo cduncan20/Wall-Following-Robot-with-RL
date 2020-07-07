@@ -1,15 +1,16 @@
-Name: Casey Duncan
-CWID: 10834922
-Date: 03/29/2020
-Course: CSCI 573 - Human Centered Robotics
-Assignment: Project 2: Reinforcement Learning for Robot Wall Following
-	    Task 1: REINFORCEMENT LEARNING
+<h1>Human Centered Robotics: SARSA Robot Reinforcement Learning</h1>
 
-**OVERVIEW**
+**Author:** Casey Duncan <br />
+**Date:** 04/27/2020 <br />
+**Course:** CSCI 573 - Human Centered Robotics <br />
+**Assignment:** Reinforcement Learning for Robot Wall Following <br />
+
+<h2>OVERVIEW</h2>
+
 The goal of this assignment was to write a ROS node that allows the robot to follow a wall using a Q-table that it populated through the SARSA Reinforcement Learning training method. The states must be the robot's sensor data and based on this state and the Q-table, the the published action should allow for the robot to follow a wall. Within the same folder as this README.txt file is the ROS package containing the code to execute the solution to this assignment. Additionally, a demo video of the working robot has been posted to youtube. The ROS package name and video link are provided below:
 
-ROS Package Folder Name: wall_follow_sarsa
-Demo Video Link: https://youtu.be/RI4NhKOeDt8
+    - ROS Package Folder Name: wall_follow_sarsa
+    - Demo Video Link: https://youtu.be/RI4NhKOeDt8
 
 Follow the steps below for compiling and running the code yourself.
 
