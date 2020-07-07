@@ -25,9 +25,9 @@ Follow the steps below for compiling and running the code yourself.
 
 4. Build catkin workspace by typing in `catkin_make`
 
-5. Check that the make created a local setup file by typing in the following commands:
-	`source /opt/ros/melodic/setup.bash`
-	`source ~/catkin_ws/devel/setup.bash`
+5. Check that the make created a local setup file by typing in the following commands:<br />
+	`source /opt/ros/melodic/setup.bash`<br />
+	`source ~/catkin_ws/devel/setup.bash`<br />
 	`source ~/catkin_ws/src/wall_follow_qlearning/wall_follow_qlearning.bash`
 
 6. Train the Q-Table:
