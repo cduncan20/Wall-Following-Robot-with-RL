@@ -34,8 +34,8 @@ Follow the steps below for compiling and running the code yourself.
 	1. Go the the following file location and open the following file:
 	    - File Location: */home/casey/catkin_ws/src/wall_follow_qlearning/src/* <br />
 	    - File Name: *triton_control_train_qlearning.cpp* <br />
-	2. Change the path for where the trained q-table will be saved and the q-table file name by changing the "q_table_file_save_path" and "q_table_write_file_name" variable values (Lines 60 & 61). For example, on my computer the values are as follows:
-	    `string q_table_file_save_path = "/home/casey/catkin_ws/src/wall_follow_qlearning/q_tables/";`
+	2. Change the path for where the trained q-table will be saved and the q-table file name by changing the `q_table_file_save_path` and `q_table_write_file_name` variable values (Lines 60 & 61). For example, on my computer the values are as follows:<br />
+	    `string q_table_file_save_path = "/home/casey/catkin_ws/src/wall_follow_qlearning/q_tables/";`<br />
 	    `string q_table_write_file_name = "qVals_qlearning_final_v2";`
 	    - If you would like to start from a q-table initialized to be all zeros, comment out lines 65 & 66 and uncomment out lines 50 - 56. 
 	    - If you would like to use a pre-trained q-table from an existing .txt file, comment out lines 50 - 56 and uncomment out lines 65 & 66. Also, update the `q_table_read_file_name` variable name (line 65) to be the name of the pre-trained q-table file. For example, on my computer the value is:
