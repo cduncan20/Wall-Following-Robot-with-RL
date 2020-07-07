@@ -47,11 +47,11 @@ Follow the steps below for compiling and running the code yourself.
 	1. Go the the following file location and open the following file:
 	    - File Location: */home/casey/catkin_ws/src/wall_follow_qlearning/src/* <br />
 	    - File Name: *triton_control_test_qlearning.cpp* <br />
-	2. Change the path for where the trained q-table is located and the q-table file name by changing the `q_table_file_path` and `q_table_file_name` variable values (Lines 47 & 48). For example, on my computer the values are as follows:
-	    `string q_table_file_name = "qVals_qlearning_final";`
+	2. Change the path for where the trained q-table is located and the q-table file name by changing the `q_table_file_path` and `q_table_file_name` variable values (Lines 47 & 48). For example, on my computer the values are as follows:<br />
+	    `string q_table_file_name = "qVals_qlearning_final";`<br />
 	    `string q_table_write_file_path = "/home/casey/catkin_ws/src/wall_follow_qlearning/q_tables/";`
 	3. Change the training time to the disired number of seconds by changing the value of the `total_time` variable (line 84). It is currently set to 300.0 seconds, which is 5 minutes.
-	4. Run the launch file within the ROS package. This will open the gazebo world and simulate the robot wall following algorithm. This can be done by typing in the following command:
+	4. Run the launch file within the ROS package. This will open the gazebo world and simulate the robot wall following algorithm. This can be done by typing in the following command:<br />
 		`roslaunch wall_follow_qlearning wall_following_test_qlearning.launch`
 
 After completing the steps above, the triton robot should find a wall within the gazebo world and begin following it using the trained Q-Table. Please note that there is a 5 second delay before it begins.
