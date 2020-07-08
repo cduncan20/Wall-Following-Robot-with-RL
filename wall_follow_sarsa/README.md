@@ -33,7 +33,7 @@ Follow the steps below for compiling and running the code yourself.
 	    `string q_table_file_save_path = "/home/casey/catkin_ws/src/wall_follow_sarsa/q_tables/";`<br />
 	    `string q_table_write_file_name = "qVals_sarsa_final_v2";`
 	    - If you would like to start from a q-table initialized to be all zeros, comment out lines 65 & 66 and uncomment out lines 50 - 56. 
-	    - If you would like to use a pre-trained q-table from an existing `.txt` file, comment out lines 50 - 56 and uncomment out lines 65 & 66. Also, update the `q_table_read_file_name` variable name (line 65) to be the name of the pre-trained q-table file. For example, on my computer the value is: <br />
+	    - If you would like to use a pre-trained q-table from an existing *.txt* file, comment out lines 50 - 56 and uncomment out lines 65 & 66. Also, update the `q_table_read_file_name` variable name (line 65) to be the name of the pre-trained q-table file. For example, on my computer the value is: <br />
 			`string q_table_read_file_name = "qVals_sarsa_final";`
 	3. Change the training time to the disired number of seconds by changing the value of the `total_time` variable (line 93). It is currently set to 3600.0 seconds, which is 1 hour.
 	4. Run the launch file within the ROS package. This will open the gazebo world and simulate the robot wall following algorithm. This can be done by typing in the following command: <br />
